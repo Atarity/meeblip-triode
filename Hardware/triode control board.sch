@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +54,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -71,6 +76,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -79,14 +85,33 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="no"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="no"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -104,9 +129,27 @@
 <layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -1906,11 +1949,49 @@ Vertical Mount</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-mod">
+<library name="SparkFun-Switches">
+<description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
+In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="AYZ0202">
-<description>&lt;b&gt;DPDT Slide Switch SMD&lt;/b&gt;
-www.SparkFun.com SKU : Comp-SMDS</description>
+<package name="MTS-102-A2">
+<description>MTS-102 A-2, ON-ON (3A 250VAC) SPDT 3P</description>
+<wire x1="4.175" y1="6.815" x2="-4.175" y2="6.815" width="0.2032" layer="21"/>
+<wire x1="-4.175" y1="6.815" x2="-4.175" y2="-6.815" width="0.2032" layer="21"/>
+<wire x1="-4.175" y1="-6.815" x2="4.175" y2="-6.815" width="0.2032" layer="21"/>
+<wire x1="4.175" y1="-6.815" x2="4.175" y2="6.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="4.7" drill="1.5" diameter="2.3"/>
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.3"/>
+<pad name="3" x="0" y="-4.7" drill="1.5" diameter="2.3"/>
+</package>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="4.175" y1="6.815" x2="-4.175" y2="6.815" width="0.2032" layer="21"/>
+<wire x1="-4.175" y1="6.815" x2="-4.175" y2="-6.815" width="0.2032" layer="21"/>
+<wire x1="-4.175" y1="-6.815" x2="4.175" y2="-6.815" width="0.2032" layer="21"/>
+<wire x1="4.175" y1="-6.815" x2="4.175" y2="6.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="4.7" drill="1.3" diameter="2.3"/>
+<pad name="2" x="0" y="0" drill="1.3" diameter="2.3"/>
+<pad name="3" x="0" y="-4.7" drill="1.3" diameter="2.3"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="SWITCH_DPDT_SMD_AYZ0202">
+<description>&lt;h3&gt;ITT Industries AYZ0202 DPDT Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Double-pole, double-throw switches.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/SW_slide_ayz.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
 <wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
 <wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
@@ -1921,153 +2002,302 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
 <smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
 <smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
-<text x="-2.54" y="1.143" size="0.4064" layer="25">&gt;Name</text>
-<text x="0.508" y="1.143" size="0.4064" layer="27">&gt;Value</text>
 <hole x="1.5" y="0" drill="0.85"/>
 <hole x="-1.5" y="0" drill="0.85"/>
+<text x="-3.81" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
-<package name="SWITCHE-DPDT">
-<wire x1="8" y1="3.25" x2="-8" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-8" y1="3.25" x2="-8" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="-8" y1="-3.25" x2="8" y2="-3.25" width="0.127" layer="51"/>
-<wire x1="8" y1="-3.25" x2="8" y2="3.25" width="0.127" layer="51"/>
-<wire x1="-6" y1="3.25" x2="6" y2="3.25" width="0.2032" layer="21"/>
-<wire x1="8" y1="1" x2="8" y2="-1" width="0.2032" layer="21"/>
-<wire x1="6" y1="-3.25" x2="-6" y2="-3.25" width="0.2032" layer="21"/>
-<wire x1="-8" y1="-1" x2="-8" y2="1" width="0.2032" layer="21"/>
-<pad name="P$1" x="-7.5" y="3" drill="1.5" diameter="2.54"/>
-<pad name="P$2" x="-7.5" y="-3" drill="1.5" diameter="2.54"/>
-<pad name="P$3" x="7.5" y="3" drill="1.5" diameter="2.54"/>
-<pad name="P$4" x="7.5" y="-3" drill="1.5" diameter="2.54"/>
-<pad name="1" x="-4" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="2" x="0" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="3" x="4" y="1.25" drill="0.7" diameter="1.6764"/>
-<pad name="4" x="-4" y="-1.25" drill="0.7" diameter="1.6764"/>
-<pad name="5" x="0" y="-1.25" drill="0.7" diameter="1.6764"/>
-<pad name="6" x="4" y="-1.25" drill="0.7" diameter="1.6764"/>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - Locking Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the LOCK version of this package. This package has offset PTH pins, which help to hold the part in place while soldering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
-<package name="R_SW_TH">
-<wire x1="-1.651" y1="19.2532" x2="-1.651" y2="-1.3716" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="-1.3716" x2="-1.651" y2="-2.2352" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="19.2532" x2="13.589" y2="19.2532" width="0.2032" layer="21"/>
-<wire x1="13.589" y1="19.2532" x2="13.589" y2="-2.2352" width="0.2032" layer="21"/>
-<wire x1="13.589" y1="-2.2352" x2="-1.651" y2="-2.2352" width="0.2032" layer="21"/>
-<pad name="P$1" x="0" y="0" drill="1.6002"/>
-<pad name="P$2" x="0" y="16.9926" drill="1.6002"/>
-<pad name="P$3" x="12.0904" y="15.494" drill="1.6002"/>
-<pad name="P$4" x="12.0904" y="8.4582" drill="1.6002"/>
+<package name="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
+<description>&lt;h3&gt;SPDT PTH Slide Switch - KIT Footprint&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/Buttons/P040040c.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
+<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796" stop="no"/>
+<pad name="3" x="0" y="-2.7178" drill="1.016" diameter="1.8796" stop="no"/>
+<rectangle x1="-0.2286" y1="-0.3048" x2="0.2286" y2="0.3048" layer="51"/>
+<rectangle x1="-0.2286" y1="2.2352" x2="0.2286" y2="2.8448" layer="51"/>
+<rectangle x1="-0.2286" y1="-2.8448" x2="0.2286" y2="-2.2352" layer="51"/>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0178" y="1.8414" curve="-90.039946"/>
+<vertex x="-0.8787" y="2.6975" curve="-90"/>
+<vertex x="-0.0026" y="3.5916" curve="-90.006409"/>
+<vertex x="0.8738" y="2.6975" curve="-90.03214"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0051" y="-3.5967" curve="-90.006558"/>
+<vertex x="-0.8788" y="-2.7431" curve="-90.037923"/>
+<vertex x="0.0128" y="-1.8363" curve="-90.006318"/>
+<vertex x="0.8814" y="-2.7432" curve="-90.038792"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-0.0102" y="-0.8738" curve="-90.019852"/>
+<vertex x="-0.8762" y="-0.0203" curve="-90.019119"/>
+<vertex x="0.0153" y="0.8789" curve="-90"/>
+<vertex x="0.8739" y="-0.0077" curve="-90.038897"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="2.2758" curve="-90.012891"/>
+<vertex x="-0.4445" y="2.7" curve="-90"/>
+<vertex x="0" y="3.1673" curve="-90"/>
+<vertex x="0.4419" y="2.7102" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0026" y="-3.1648" curve="-90.012891"/>
+<vertex x="-0.4419" y="-2.7406" curve="-90"/>
+<vertex x="0.0026" y="-2.2733" curve="-90"/>
+<vertex x="0.4445" y="-2.7304" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0.0102" y="-0.4471" curve="-90.012891"/>
+<vertex x="-0.4343" y="-0.0229" curve="-90"/>
+<vertex x="0.0102" y="0.4444" curve="-90"/>
+<vertex x="0.4521" y="-0.0127" curve="-90.012967"/>
+</polygon>
+<text x="-2.413" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.413" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
-<package name="SWITCH-SPDT-SMD">
-<wire x1="-4.5" y1="1.75" x2="-4.5" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-4.5" y1="-1.75" x2="4.5" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="4.5" y1="-1.75" x2="4.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="4.5" y1="1.75" x2="2" y2="1.75" width="0.127" layer="51"/>
-<wire x1="2" y1="1.75" x2="0.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.75" x2="-4.5" y2="1.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="1.75" x2="0.5" y2="3.75" width="0.127" layer="51"/>
-<wire x1="0.5" y1="3.75" x2="2" y2="3.75" width="0.127" layer="51"/>
-<wire x1="2" y1="3.75" x2="2" y2="1.75" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1.75" x2="-4.5" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-1.75" x2="-4.5" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="1.75" x2="4.5" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="1.75" x2="4.5" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-1.75" x2="4" y2="-1.75" width="0.2032" layer="21"/>
-<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1" rot="R180"/>
-<text x="-1.27" y="0.635" size="0.6096" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-<hole x="-3.55" y="0" drill="0.9"/>
-<hole x="3.55" y="0" drill="0.9"/>
+<package name="SWITCH_SPST_SMD_A">
+<description>&lt;h3&gt;SPDT Slide Switch - SMD&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/SLIDE.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.35" y1="1.3" x2="-3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-3.35" y1="-1.3" x2="3.35" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="-1.3" x2="3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="3.35" y1="1.3" x2="-0.1" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="1.3" x2="-3.35" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="1.3" x2="-0.1" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-0.1" y1="2.8" x2="-1.4" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.8" x2="-1.4" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-3.477" y1="0.427" x2="-3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="3.477" y1="0.427" x2="3.477" y2="-0.427" width="0.2032" layer="21"/>
+<wire x1="2.7" y1="1.427" x2="-2.7" y2="1.427" width="0.2032" layer="21"/>
+<wire x1="1.627" y1="-1.427" x2="-0.127" y2="-1.427" width="0.2032" layer="21"/>
+<smd name="1" x="-2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.75" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="3" x="2.25" y="-1.75" dx="0.7" dy="1.5" layer="1" rot="R180"/>
+<smd name="GND1" x="-3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND2" x="-3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<smd name="GND3" x="3.65" y="1" dx="1" dy="0.6" layer="1"/>
+<smd name="GND4" x="3.65" y="-1.1" dx="1" dy="0.8" layer="1"/>
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+<text x="0.762" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center">&gt;Name</text>
+<text x="0" y="1.397" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;Value</text>
 </package>
-<package name="SWITCH-SPDT">
-<wire x1="3.4" y1="8" x2="-3.4" y2="8" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="8" x2="-3.4" y2="-8" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-8" x2="3.4" y2="-8" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="-8" x2="3.4" y2="8" width="0.2032" layer="21"/>
-<pad name="1" x="1.25" y="4" drill="0.9"/>
-<pad name="2" x="1.25" y="0" drill="0.9"/>
-<pad name="3" x="1.25" y="-4" drill="0.9"/>
-<pad name="P$1" x="3.15" y="7.5" drill="1.4"/>
-<pad name="P$2" x="-3.15" y="-7.5" drill="1.4"/>
-<text x="-3.81" y="9.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-11.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<package name="SWITCH_SPDT_8.6X4.3MM">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dznh3ojzb2azq.cloudfront.net/products/Slide/OS/documents/datasheet.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="1" x="-2" y="0" drill="0.8"/>
+<pad name="2" x="0" y="0" drill="0.8"/>
+<pad name="3" x="2" y="0" drill="0.8"/>
+<pad name="4" x="-4.1" y="0" drill="1.5"/>
+<pad name="5" x="4.1" y="0" drill="1.5"/>
+<wire x1="-4.3" y1="2.15" x2="4.3" y2="2.15" width="0.1524" layer="21"/>
+<wire x1="4.3" y1="2.15" x2="4.3" y2="-2.15" width="0.1524" layer="21"/>
+<wire x1="4.3" y1="-2.15" x2="-4.3" y2="-2.15" width="0.1524" layer="21"/>
+<wire x1="-4.3" y1="-2.15" x2="-4.3" y2="2.15" width="0.1524" layer="21"/>
+<rectangle x1="-4.3" y1="-0.6" x2="-3.9" y2="0.6" layer="51"/>
+<rectangle x1="3.9" y1="-0.6" x2="4.3" y2="0.6" layer="51"/>
+<rectangle x1="-0.25" y1="-0.15" x2="0.25" y2="0.15" layer="51"/>
+<rectangle x1="-2.25" y1="-0.15" x2="-1.75" y2="0.15" layer="51"/>
+<rectangle x1="1.75" y1="-0.15" x2="2.25" y2="0.15" layer="51"/>
+</package>
+<package name="SWITCH_SPDT_8.6X4.3MM_LOCK">
+<description>&lt;h3&gt;SPDT PTH Slide Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://dznh3ojzb2azq.cloudfront.net/products/Slide/OS/documents/datasheet.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="1" x="-1.88" y="0" drill="0.8"/>
+<pad name="2" x="0" y="0" drill="0.8"/>
+<pad name="3" x="1.88" y="0" drill="0.8"/>
+<pad name="4" x="-4.1" y="0" drill="1.5"/>
+<pad name="5" x="4.1" y="0" drill="1.5"/>
+<wire x1="-4.3" y1="2.15" x2="4.3" y2="2.15" width="0.1524" layer="21"/>
+<wire x1="4.3" y1="2.15" x2="4.3" y2="-2.15" width="0.1524" layer="21"/>
+<wire x1="4.3" y1="-2.15" x2="-4.3" y2="-2.15" width="0.1524" layer="21"/>
+<wire x1="-4.3" y1="-2.15" x2="-4.3" y2="2.15" width="0.1524" layer="21"/>
+<rectangle x1="-4.3" y1="-0.6" x2="-3.9" y2="0.6" layer="51"/>
+<rectangle x1="3.9" y1="-0.6" x2="4.3" y2="0.6" layer="51"/>
+<rectangle x1="-0.25" y1="-0.15" x2="0.25" y2="0.15" layer="51"/>
+<rectangle x1="-2.25" y1="-0.15" x2="-1.75" y2="0.15" layer="51"/>
+<rectangle x1="1.75" y1="-0.15" x2="2.25" y2="0.15" layer="51"/>
 </package>
 </packages>
 <symbols>
 <symbol name="TOGGLE">
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;</description>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="94"/>
 <wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="94"/>
 <circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>
 <circle x="2.54" y="-2.54" radius="0.3592" width="0.2032" layer="94"/>
 <circle x="0" y="0" radius="0.3592" width="0.2032" layer="94"/>
-<text x="-1.905" y="-6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="3.048" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.016" y="-3.302" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="P" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SWITCH-SPST" prefix="S" uservalue="yes">
-<description>&lt;b&gt;SPST Switch&lt;/b&gt;
-Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
+<deviceset name="SWITCH-SPDT" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Single Pole, Double Throw (SPDT) Switch&lt;/h3&gt;
+&lt;p&gt;Single-pole, double-throw (SPDT) switch.&lt;/p&gt;
+&lt;h4&gt;Variant Overview&lt;/h4&gt;
+&lt;h5&gt;SMD-AYZ0202&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/102"&gt;SPDT Mini Power Switch&lt;/a&gt; (COM-00102)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/10547"&gt;SparkFun Simon Says - Through-Hole Soldering Kit&lt;/a&gt; (KIT-10547)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-KIT&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;KIT version of SPDT Mini Power Switch - Simplifies soldering by removing tStop of switch pins - only one side can be soldered.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;PTH-11.6X4.0MM-LOCK&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;LOCK version of SPDT Mini Power Switch - Offset pins hold switch in place for easier soldering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-RIGHT-ANGLE&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10860"&gt;Surface Mount Right Angle Switch&lt;/a&gt; (COM-10860)&lt;/li&gt;
+&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13231"&gt;SparkFun ESP8266 Thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="1" symbol="TOGGLE" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="PTH" package="SWITCH-SPDT">
+<device name="-PTH-11.6X4.0MM" package="SWITCH_SPDT_PTH_11.6X4.0MM">
 <connects>
 <connect gate="1" pin="O" pad="1"/>
 <connect gate="1" pin="P" pad="2"/>
 <connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
 </technologies>
 </device>
-<device name="SMD" package="AYZ0202">
+<device name="-SMD-AYZ0202" package="SWITCH_DPDT_SMD_AYZ0202">
 <connects>
 <connect gate="1" pin="O" pad="1"/>
 <connect gate="1" pin="P" pad="2"/>
 <connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08179" constant="no"/>
+<attribute name="SF_ID" value="COM-00597" constant="no"/>
+</technology>
 </technologies>
 </device>
-<device name="PTH2" package="SWITCHE-DPDT">
+<device name="-PTH-11.6X4.0MM-LOCK" package="SWITCH_SPDT_PTH_11.6X4.0MM_LOCK">
 <connects>
 <connect gate="1" pin="O" pad="1"/>
 <connect gate="1" pin="P" pad="2"/>
 <connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102 "/>
+</technology>
 </technologies>
 </device>
-<device name="PTH3" package="R_SW_TH">
-<connects>
-<connect gate="1" pin="O" pad="P$1"/>
-<connect gate="1" pin="P" pad="P$2"/>
-<connect gate="1" pin="S" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="SWITCH-SPDT-SMD">
+<device name="-PTH-11.6X4.0MM-KIT" package="SWITCH_SPDT_PTH_11.6X4.0MM_KIT">
 <connects>
 <connect gate="1" pin="O" pad="1"/>
 <connect gate="1" pin="P" pad="2"/>
 <connect gate="1" pin="S" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+<attribute name="SF_SKU" value="COM-00102"/>
+</technology>
 </technologies>
 </device>
-<device name="MHS122K" package="SWITCH-SPDT">
+<device name="-SMD-RIGHT-ANGLE" package="SWITCH_SPST_SMD_A">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-10651"/>
+<attribute name="SF_SKU" value="COM-10860"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-11.6X4.0MM-SHORT_LEADS" package="SWITCH_SPDT_PTH_11.6X4.0MM">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-13151"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-8.6X4.3MM" package="SWITCH_SPDT_8.6X4.3MM">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-14746"/>
+</technology>
+</technologies>
+</device>
+<device name="-PTH-8.6X4.3MM-LOCK" package="SWITCH_SPDT_8.6X4.3MM_LOCK">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="SWCH-14746"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="MTS-102-A2">
 <connects>
 <connect gate="1" pin="O" pad="1"/>
 <connect gate="1" pin="P" pad="2"/>
@@ -2104,10 +2334,10 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <part name="POT8" library="meeblip-MOD" deviceset="VACOLOCO_EVUF" device="RK09_POT"/>
 <part name="POT9" library="meeblip-MOD" deviceset="VACOLOCO_EVUF" device="RK09_POT"/>
 <part name="LED1" library="meeblip" deviceset="LED" device="3MM"/>
-<part name="S1" library="SparkFun-mod" deviceset="SWITCH-SPST" device="MHS122K"/>
-<part name="S2" library="SparkFun-mod" deviceset="SWITCH-SPST" device="MHS122K"/>
-<part name="S3" library="SparkFun-mod" deviceset="SWITCH-SPST" device="MHS122K"/>
-<part name="S4" library="SparkFun-mod" deviceset="SWITCH-SPST" device="MHS122K"/>
+<part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device=""/>
+<part name="S2" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device=""/>
+<part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device=""/>
+<part name="S4" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device=""/>
 <part name="U$10" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
@@ -2142,66 +2372,194 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <text x="12.7" y="5.08" size="2.54" layer="95">J. Grahame |  August 15, 2014  |  meeblip.com</text>
 </plain>
 <instances>
-<instance part="JP6" gate="-1" x="342.9" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-2" x="332.74" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-3" x="322.58" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-4" x="312.42" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-5" x="302.26" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-6" x="292.1" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-7" x="281.94" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-8" x="271.78" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-9" x="261.62" y="20.32" rot="R180"/>
-<instance part="JP6" gate="-10" x="251.46" y="20.32" rot="R180"/>
-<instance part="JP7" gate="-1" x="43.18" y="162.56"/>
-<instance part="JP7" gate="-2" x="53.34" y="162.56"/>
-<instance part="JP7" gate="-3" x="63.5" y="162.56"/>
-<instance part="JP7" gate="-4" x="73.66" y="162.56"/>
-<instance part="JP7" gate="-5" x="83.82" y="162.56"/>
-<instance part="JP7" gate="-6" x="93.98" y="162.56"/>
-<instance part="JP7" gate="-7" x="104.14" y="162.56"/>
-<instance part="JP7" gate="-8" x="114.3" y="162.56"/>
-<instance part="JP7" gate="-9" x="124.46" y="162.56"/>
-<instance part="JP7" gate="-10" x="134.62" y="162.56"/>
-<instance part="POT1" gate="G$1" x="287.02" y="195.58" rot="R90"/>
-<instance part="J1" gate="B" x="264.16" y="157.48" rot="R270"/>
-<instance part="POT2" gate="G$1" x="215.9" y="104.14" rot="R90"/>
-<instance part="POT3" gate="G$1" x="256.54" y="104.14" rot="R90"/>
-<instance part="POT4" gate="G$1" x="292.1" y="104.14" rot="R90"/>
-<instance part="POT5" gate="G$1" x="335.28" y="104.14" rot="R90"/>
-<instance part="POT6" gate="G$1" x="236.22" y="66.04" rot="R90"/>
-<instance part="POT7" gate="G$1" x="274.32" y="66.04" rot="R90"/>
-<instance part="POT8" gate="G$1" x="314.96" y="66.04" rot="R90"/>
-<instance part="POT9" gate="G$1" x="355.6" y="66.04" rot="R90"/>
-<instance part="LED1" gate="G$1" x="132.08" y="137.16" rot="R90"/>
-<instance part="S1" gate="1" x="147.32" y="210.82"/>
-<instance part="S2" gate="1" x="114.3" y="210.82"/>
-<instance part="S3" gate="1" x="83.82" y="210.82"/>
-<instance part="S4" gate="1" x="53.34" y="210.82"/>
-<instance part="U$10" gate="G$1" x="129.54" y="152.4"/>
-<instance part="GND1" gate="1" x="137.16" y="147.32"/>
-<instance part="GND3" gate="1" x="264.16" y="86.36"/>
-<instance part="GND4" gate="1" x="243.84" y="48.26"/>
-<instance part="GND6" gate="1" x="223.52" y="86.36"/>
-<instance part="GND7" gate="1" x="299.72" y="86.36"/>
-<instance part="GND8" gate="1" x="281.94" y="48.26"/>
-<instance part="GND9" gate="1" x="322.58" y="48.26"/>
-<instance part="GND10" gate="1" x="363.22" y="48.26"/>
-<instance part="GND2" gate="1" x="142.24" y="129.54"/>
-<instance part="GND5" gate="1" x="139.7" y="195.58"/>
-<instance part="GND11" gate="1" x="106.68" y="195.58"/>
-<instance part="GND12" gate="1" x="76.2" y="195.58"/>
-<instance part="GND13" gate="1" x="45.72" y="195.58"/>
-<instance part="U$11" gate="G$1" x="345.44" y="58.42"/>
-<instance part="U$12" gate="G$1" x="246.38" y="96.52"/>
-<instance part="U$13" gate="G$1" x="226.06" y="58.42"/>
-<instance part="U$14" gate="G$1" x="205.74" y="96.52"/>
-<instance part="U$15" gate="G$1" x="281.94" y="96.52"/>
-<instance part="U$16" gate="G$1" x="264.16" y="58.42"/>
-<instance part="U$17" gate="G$1" x="304.8" y="58.42"/>
-<instance part="SUPPLY1" gate="G$1" x="274.32" y="134.62"/>
-<instance part="SUPPLY3" gate="G$1" x="294.64" y="180.34"/>
-<instance part="U$1" gate="G$1" x="322.58" y="96.52"/>
-<instance part="GND14" gate="1" x="342.9" y="86.36"/>
+<instance part="JP6" gate="-1" x="342.9" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="344.17" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="337.185" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-2" x="332.74" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="334.01" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="327.025" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-3" x="322.58" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="323.85" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="316.865" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-4" x="312.42" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="313.69" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="306.705" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-5" x="302.26" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="303.53" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="296.545" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-6" x="292.1" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="293.37" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="286.385" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-7" x="281.94" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="283.21" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="276.225" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-8" x="271.78" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="273.05" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="266.065" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-9" x="261.62" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="262.89" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="255.905" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP6" gate="-10" x="251.46" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="252.73" y="20.32" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="245.745" y="20.32" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="JP7" gate="-1" x="43.18" y="162.56" smashed="yes">
+<attribute name="NAME" x="41.91" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.895" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-2" x="53.34" y="162.56" smashed="yes">
+<attribute name="NAME" x="52.07" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.055" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-3" x="63.5" y="162.56" smashed="yes">
+<attribute name="NAME" x="62.23" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.215" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-4" x="73.66" y="162.56" smashed="yes">
+<attribute name="NAME" x="72.39" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.375" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-5" x="83.82" y="162.56" smashed="yes">
+<attribute name="NAME" x="82.55" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.535" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-6" x="93.98" y="162.56" smashed="yes">
+<attribute name="NAME" x="92.71" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="99.695" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-7" x="104.14" y="162.56" smashed="yes">
+<attribute name="NAME" x="102.87" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.855" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-8" x="114.3" y="162.56" smashed="yes">
+<attribute name="NAME" x="113.03" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.015" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-9" x="124.46" y="162.56" smashed="yes">
+<attribute name="NAME" x="123.19" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.175" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP7" gate="-10" x="134.62" y="162.56" smashed="yes">
+<attribute name="NAME" x="133.35" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="140.335" y="162.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="POT1" gate="G$1" x="287.02" y="195.58" smashed="yes" rot="R90"/>
+<instance part="J1" gate="B" x="264.16" y="157.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="259.08" y="162.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="259.08" y="150.495" size="1.778" layer="96"/>
+</instance>
+<instance part="POT2" gate="G$1" x="215.9" y="104.14" smashed="yes" rot="R90"/>
+<instance part="POT3" gate="G$1" x="256.54" y="104.14" smashed="yes" rot="R90"/>
+<instance part="POT4" gate="G$1" x="292.1" y="104.14" smashed="yes" rot="R90"/>
+<instance part="POT5" gate="G$1" x="335.28" y="104.14" smashed="yes" rot="R90"/>
+<instance part="POT6" gate="G$1" x="236.22" y="66.04" smashed="yes" rot="R90"/>
+<instance part="POT7" gate="G$1" x="274.32" y="66.04" smashed="yes" rot="R90"/>
+<instance part="POT8" gate="G$1" x="314.96" y="66.04" smashed="yes" rot="R90"/>
+<instance part="POT9" gate="G$1" x="355.6" y="66.04" smashed="yes" rot="R90"/>
+<instance part="LED1" gate="G$1" x="132.08" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="136.652" y="140.716" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="136.652" y="142.875" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="S1" gate="1" x="147.32" y="210.82" smashed="yes">
+<attribute name="NAME" x="145.415" y="204.47" size="1.778" layer="95"/>
+<attribute name="VALUE" x="144.78" y="214.63" size="1.778" layer="96"/>
+</instance>
+<instance part="S2" gate="1" x="114.3" y="210.82" smashed="yes">
+<attribute name="NAME" x="112.395" y="204.47" size="1.778" layer="95"/>
+<attribute name="VALUE" x="111.76" y="214.63" size="1.778" layer="96"/>
+</instance>
+<instance part="S3" gate="1" x="83.82" y="210.82" smashed="yes">
+<attribute name="NAME" x="81.915" y="204.47" size="1.778" layer="95"/>
+<attribute name="VALUE" x="81.28" y="214.63" size="1.778" layer="96"/>
+</instance>
+<instance part="S4" gate="1" x="53.34" y="210.82" smashed="yes">
+<attribute name="NAME" x="51.435" y="204.47" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="214.63" size="1.778" layer="96"/>
+</instance>
+<instance part="U$10" gate="G$1" x="129.54" y="152.4" smashed="yes">
+<attribute name="VALUE" x="128.524" y="155.956" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="137.16" y="147.32" smashed="yes">
+<attribute name="VALUE" x="134.62" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="264.16" y="86.36" smashed="yes">
+<attribute name="VALUE" x="261.62" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="243.84" y="48.26" smashed="yes">
+<attribute name="VALUE" x="241.3" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="223.52" y="86.36" smashed="yes">
+<attribute name="VALUE" x="220.98" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND7" gate="1" x="299.72" y="86.36" smashed="yes">
+<attribute name="VALUE" x="297.18" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="GND8" gate="1" x="281.94" y="48.26" smashed="yes">
+<attribute name="VALUE" x="279.4" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND9" gate="1" x="322.58" y="48.26" smashed="yes">
+<attribute name="VALUE" x="320.04" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND10" gate="1" x="363.22" y="48.26" smashed="yes">
+<attribute name="VALUE" x="360.68" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="142.24" y="129.54" smashed="yes">
+<attribute name="VALUE" x="139.7" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="139.7" y="195.58" smashed="yes">
+<attribute name="VALUE" x="137.16" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="106.68" y="195.58" smashed="yes">
+<attribute name="VALUE" x="104.14" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="GND12" gate="1" x="76.2" y="195.58" smashed="yes">
+<attribute name="VALUE" x="73.66" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="45.72" y="195.58" smashed="yes">
+<attribute name="VALUE" x="43.18" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="U$11" gate="G$1" x="345.44" y="58.42" smashed="yes">
+<attribute name="VALUE" x="344.424" y="61.976" size="1.778" layer="96"/>
+</instance>
+<instance part="U$12" gate="G$1" x="246.38" y="96.52" smashed="yes">
+<attribute name="VALUE" x="245.364" y="100.076" size="1.778" layer="96"/>
+</instance>
+<instance part="U$13" gate="G$1" x="226.06" y="58.42" smashed="yes">
+<attribute name="VALUE" x="225.044" y="61.976" size="1.778" layer="96"/>
+</instance>
+<instance part="U$14" gate="G$1" x="205.74" y="96.52" smashed="yes">
+<attribute name="VALUE" x="204.724" y="100.076" size="1.778" layer="96"/>
+</instance>
+<instance part="U$15" gate="G$1" x="281.94" y="96.52" smashed="yes">
+<attribute name="VALUE" x="280.924" y="100.076" size="1.778" layer="96"/>
+</instance>
+<instance part="U$16" gate="G$1" x="264.16" y="58.42" smashed="yes">
+<attribute name="VALUE" x="263.144" y="61.976" size="1.778" layer="96"/>
+</instance>
+<instance part="U$17" gate="G$1" x="304.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="303.784" y="61.976" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="274.32" y="134.62" smashed="yes">
+<attribute name="VALUE" x="271.653" y="131.445" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="294.64" y="180.34" smashed="yes">
+<attribute name="VALUE" x="291.973" y="177.165" size="1.778" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="322.58" y="96.52" smashed="yes">
+<attribute name="VALUE" x="321.564" y="100.076" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="342.9" y="86.36" smashed="yes">
+<attribute name="VALUE" x="340.36" y="83.82" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>

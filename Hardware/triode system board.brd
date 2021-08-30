@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -1064,10 +1065,14 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1189,12 +1194,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="17.145" y="75.9206" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IC2" library="optocoupler" package="DIL08" value="6N137" x="25.4" y="73.66" smashed="yes">
-<attribute name="NAME" x="30.988" y="73.787" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="21.844" y="73.025" size="1.27" layer="27" ratio="10"/>
 <attribute name="MF" value="" x="25.4" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="6N137" x="25.4" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.988" y="73.787" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="1328376" x="25.4" y="73.66" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="52M1895" x="25.4" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.844" y="73.025" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R4" library="rcl" package="M1206" value="220" x="72.39" y="8.89" smashed="yes" rot="R180">
 <attribute name="NAME" x="75.184" y="10.414" size="1.27" layer="25" font="vector" ratio="10"/>
@@ -1206,11 +1211,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.91" y="9.525" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="IC1" library="atmel" package="DIL40" value="MEGA32-P" x="52.07" y="21.59" smashed="yes">
-<attribute name="VALUE" x="30.4799" y="19.3547" size="1.778" layer="27" ratio="10"/>
 <attribute name="MF" value="" x="52.07" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ATMEGA32-16PU" x="52.07" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1661729" x="52.07" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="51P1794" x="52.07" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="30.4799" y="19.3547" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="R1" library="rcl" package="M1206" value="10k" x="35.56" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.258" y="5.8674" size="0.9906" layer="25" font="vector" ratio="12"/>
@@ -1248,7 +1253,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="74.295" y="38.989" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="74.6506" y="41.275" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J2" library="meeblip" package="AUDIO-JACK" value="AUDIO-JACK-PTH" x="77.724" y="98.044" rot="R270"/>
+<element name="J2" library="meeblip" package="AUDIO-JACK" value="AUDIO-JACK-PTH" x="77.724" y="98.044" smashed="yes" rot="R270">
+<attribute name="NAME" x="80.264" y="99.314" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="78.994" y="99.314" size="0.4064" layer="27" rot="R270"/>
+</element>
 <element name="R13" library="rcl" package="M1206" value="1M" x="86.36" y="49.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.011" y="48.895" size="1.27" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="86.995" y="47.2694" size="1.27" layer="27" ratio="10" rot="R90"/>
@@ -1284,15 +1292,18 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.106" y="80.805" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="53.065" y="87.69" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="IC3" library="microchip-dac" package="DIL14" value="MCP4922P" x="44.45" y="48.26"/>
+<element name="IC3" library="microchip-dac" package="DIL14" value="MCP4922P" x="44.45" y="48.26" smashed="yes">
+<attribute name="NAME" x="35.179" y="45.212" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="37.719" y="47.625" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="C17" library="SparkFun" package="0603-CAP" value="100nF" x="40.64" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="42.164" y="57.912" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="41.656" y="57.023" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="H1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="81.28"/>
-<element name="H4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="96.52" y="20.32"/>
-<element name="H2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="96.52" y="81.28"/>
-<element name="H3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="20.32"/>
+<element name="H1" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="81.28" smashed="yes"/>
+<element name="H4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="96.52" y="20.32" smashed="yes"/>
+<element name="H2" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="96.52" y="81.28" smashed="yes"/>
+<element name="H3" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="5.08" y="20.32" smashed="yes"/>
 <element name="JP2" library="jumper" package="JP10Q" value="" x="6.35" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.636" y="36.957" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="11.938" y="38.1" size="1.27" layer="27" ratio="10" rot="R90"/>
@@ -1301,7 +1312,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="97.536" y="36.83" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="100.838" y="38.1" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="S2" library="SparkFun-mod" package="EG2208A" value="SWITCH-DPDTEG2211" x="41.91" y="98.552" rot="R270"/>
+<element name="S2" library="SparkFun-mod" package="EG2208A" value="SWITCH-DPDTEG2211" x="41.91" y="98.552" smashed="yes" rot="R270"/>
 <element name="C1" library="SparkFun" package="PANASONIC_D" value="100uF" x="46.99" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.462" y="71.739" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.015" y="77.95" size="1.016" layer="27" rot="R270"/>
@@ -1342,7 +1353,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="73.942" y="42.275" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="70.415" y="48.74" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="JP1" library="jumper" package="JP3Q" value="" x="66.04" y="81.28" rot="R90"/>
+<element name="JP1" library="jumper" package="JP3Q" value="" x="66.04" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.119" y="77.851" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="77.851" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C3" library="SparkFun" package="PANASONIC_D" value="220uF" x="57.15" y="69.85" smashed="yes" rot="R270">
 <attribute name="NAME" x="59.083" y="65.262" size="1.016" layer="25" font="vector"/>
 <attribute name="VALUE" x="55.175" y="71.6" size="1.016" layer="27" rot="R270"/>
@@ -1362,14 +1376,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="41.91" y="67.945" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="48.1251" y="70.3849" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="IC6" library="Microchip_By_element14_Batch_1" package="DIP254P762X533-8" value="MCP4151-503E/P" x="30.48" y="52.07" rot="R90">
-<attribute name="PACKAGE" value="DIP-8" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="77M2694" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="IC6" library="Microchip_By_element14_Batch_1" package="DIP254P762X533-8" value="MCP4151-503E/P" x="30.48" y="52.07" smashed="yes" rot="R90">
 <attribute name="MPN" value="MCP4151-503E/P" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SUPPLIER" value="Microchip" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="21.082" y="43.688" size="2.0828" layer="25" ratio="10" rot="SR90"/>
 <attribute name="OC_FARNELL" value="1840819" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="77M2694" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="DIP-8" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPPLIER" value="Microchip" x="30.48" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="34.5186" y="42.5196" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="C19" library="SparkFun" package="0603-CAP" value="100nF" x="29.21" y="40.64"/>
+<element name="C19" library="SparkFun" package="0603-CAP" value="100nF" x="29.21" y="40.64" smashed="yes">
+<attribute name="NAME" x="28.321" y="41.402" size="0.4064" layer="25" font="vector"/>
+<attribute name="VALUE" x="28.194" y="39.497" size="0.4064" layer="27" font="vector"/>
+</element>
 <element name="C20" library="SparkFun" package="PANASONIC_C" value="4.7uF" x="86.36" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="85.03" y="16.67" size="1.016" layer="25"/>
 <attribute name="VALUE" x="82.275" y="15.3" size="1.016" layer="27" rot="R270"/>
@@ -1999,7 +2018,6 @@ design rules under a new name.</description>
 <signal name="N$38">
 <contactref element="C10" pad="-"/>
 <contactref element="R6" pad="2"/>
-<wire x1="74.32" y1="62.76" x2="78.54" y2="62.76" width="0.4064" layer="1"/>
 <contactref element="R16" pad="1"/>
 <wire x1="95.38" y1="13.97" x2="97.79" y2="13.97" width="0.4064" layer="1"/>
 <wire x1="97.79" y1="13.97" x2="99.822" y2="16.002" width="0.4064" layer="1"/>
@@ -2334,6 +2352,13 @@ design rules under a new name.</description>
 <wire x1="86.36" y1="14.7" x2="86.16" y2="14.5" width="0.4064" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </eagle>
