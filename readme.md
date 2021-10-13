@@ -6,6 +6,10 @@ I've also compiled comprehensive BOM for Triode synth on Octopart:
 - [System board BOM](https://octopart.com/bom-tool/68w582wg)
 - [Control board BOM](https://octopart.com/bom-tool/EHZrPlb9)
 
+And Max/MSP patch to handle MIDI-only controls:
+
+![Max patch](/max-patch.jpg)
+
 ------------
 Change log
 V1.20 2017.02.27
