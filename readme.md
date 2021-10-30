@@ -1,4 +1,4 @@
-⚠️ This is just a **clone** of original [Meeblip Triode repo](https://github.com/MeeBlip/meeblip-triode) . I changed layout for SPDT switches to MTS-120 cause there is no chance to buy original ones in my location. Switches looks like this:
+⚠️ This is just a **fork** of original [Meeblip Triode repo](https://github.com/MeeBlip/meeblip-triode) with very **minor** changes . I changed layout for SPDT switches to MTS-120 cause there is no chance to buy original ones in my location. Switches looks like this:
 
 ![Control-board](/control-board.jpg)
 
